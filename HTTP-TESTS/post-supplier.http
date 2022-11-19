@@ -1,0 +1,9 @@
+POST http://localhost:3000/suppliers
+Content-Type: application/json
+
+{
+  "name": "Tradeline",
+  "email": "bademail_invalid",
+  "address": "9 El-Thawra, Korba, Heliopolis, Cairo Governorate",
+  "imgURL": "https://tradelinestores.s3.amazonaws.com/media/product_images/4a212126-6b64-44ea-a0cf-26ec60991622.jpg"
+}

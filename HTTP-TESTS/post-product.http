@@ -1,0 +1,10 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Microsoft Surface",
+  "description": "A great laptop built and designed by Microsoft",
+  "price": 38999.99,
+  "imgURL": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/aff9b438-Panel07_MultiHeroCarousel_Productive:VP5-1920x720",
+  "supplierId": "63515fc25b57b46e110e7d11"
+}
