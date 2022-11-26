@@ -10,7 +10,7 @@ const suppliersRouter = require('./routes/suppliers');
 const authRouter = require('./routes/auth');
 
 // Access the port environment variable using process.env
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 const app = express();
 
 // an express middleware to parse JSON data in request body.
