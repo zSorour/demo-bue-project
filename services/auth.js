@@ -41,7 +41,7 @@ module.exports.checkCredentials = async (username, password) => {
     });
 
     // compare the plaintext password with the user's hashed password in the db.
-    let isCorrectPassword = bcrypt.compare(password, user.password);
+    let isCorrectPassword = await bcrypt.compare(password, user.password);
 
     if (isCorrectPassword) {
       return user;
